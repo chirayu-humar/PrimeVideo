@@ -2,15 +2,20 @@
 import Slider from 'react-slick'
 import MovieItem from '../MovieItem'
 
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+
 const MoviesSlider = props => {
   const {moviesList} = props
   console.log(moviesList)
   return (
-    <Slider>
-      {moviesList.map(eachItem => (
-        <MovieItem details={eachItem} />
-      ))}
-    </Slider>
+    <>
+      <Slider>
+        {moviesList.map(eachItem => (
+          <MovieItem details={eachItem} />
+        ))}
+      </Slider>
+    </>
   )
 }
 
