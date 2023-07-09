@@ -5,3 +5,28 @@
 .ItemImage {
   width: 100%;
 }
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+.outerPopup {
+  background-color: white;
+  width: 70vw;
+}
+.upperOuterPopup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.bottomOuterPopup {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}

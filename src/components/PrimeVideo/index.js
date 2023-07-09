@@ -16,6 +16,7 @@ const PrimeVideo = props => {
       {/* first div */}
       <div className="upperBanner">
         <img
+          alt="prime video"
           className="bannerImage"
           src="https://assets.ccbp.in/frontend/react-js/prime-video-img.png"
         />
